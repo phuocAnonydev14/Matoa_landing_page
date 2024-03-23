@@ -1,8 +1,8 @@
 const images = [
   "/images/watch 1.png",
   "/images/pdetail-1.png",
-  "/images/watch 2.png",
   "/images/pdetail-3.png",
+  "/images/seri 9.png",
 ];
 let currentImageIndex = 0;
 
