@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Taviraj", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background: rgba(247, 246, 244, 1) !important;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+.container .content {
+}
+
+.contentBanner {
+  width: 100%;
+  height: 500px;
+  background: rgba(241, 221, 201, 1);
+  display: flex;
+  gap: 40px;
+  position: relative;
+  padding-top: 40px;
+}
+
+.contentBanner .watch {
+  transform: translateY(100px);
+}
+
+.contentBanner .sideContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contentBanner h1 {
+  font-size: 60px;
+  font-weight: 400;
+  text-wrap: balance;
+}
+
+.divider {
+  width: 100px;
+  height: 2px;
+  background-color: rgb(92, 91, 91);
+}
+
+.commonBtn {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(216, 71, 39, 1);
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.bannerAbs {
+  width: max-content;
+  position: absolute;
+  right: -80px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.bannerAbs svg:nth-child(2) {
+  transform: translateY(-150px);
+  opacity: 0.6;
+}
+
+.bannerAbs svg:last-child {
+  transform: translateY(-300px);
+  opacity: 0.3;
+}
+
+.contentBanner .arrow {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  bottom: -20px;
+  right: 30px;
+}
+
+.contentBanner .arrow button:last-child {
+  background-color: rgba(216, 71, 39, 1);
+}
+
+.luxury {
+  margin-top: 150px;
+  display: flex;
+  gap: 40px;
+}
+
+.luxury .box {
+  background: rgba(255, 255, 255, 1);
+  width: 50%;
+  padding: 20px;
+}
+
+.deal {
+  margin-top: 80px;
+}
+
+.dealBoxes {
+  margin-top: 70px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  height: 450px;
+}
+
+.dealBox {
+  background: rgba(255, 255, 255, 1);
+  padding: 10px 20px;
+  height: 370px;
+  flex-grow: 1;
+}
+
+.dealBox:hover {
+  height: 420px;
+  transition: all 0.25s ease;
+}
+
+.dealBox:hover .btn {
+  opacity: 1 !important;
+  transition: all 0.5s ease;
+}
+
+.dealBox img {
+  transform: translateY(-15%);
+}
+
+.dealBox .title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.dealBox .sale {
+  font-family: Taviraj;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(119, 119, 119, 1);
+}
+
+.dealBox .origin {
+  font-family: Taviraj;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(119, 119, 119, 1);
+  text-decoration: line-through;
+}
+
+.dealBox .price {
+  font-family: Taviraj;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+}
+
+.newBoxes {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.news {
+  margin-top: 60px;
+}
+
+.rightContent {
+  position: relative;
+}
+
+.rightContent::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -30%;
+  top: -15%;
+  background: rgba(241, 221, 201, 1);
+  z-index: -2;
+}
+
+.series {
+  margin-top: 100px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.seriesBox {
+  width: 30%;
+  display: flex;
+  gap: 20px;
+}
+
+.seriesBox img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 10px 20px;
+  background: rgba(241, 221, 201, 1);
+}
+.testi {
+  /* direction: rtl; */
+}
+
+.testi h2 {
+  /* text-align: right; */
+  transform: translateX(-150px);
+}
+
+.testi .divider {
+  transform: translateX(-270px);
+}
+
+.testi .newBoxes {
+  flex-direction: row-reverse !important ;
+  gap: 100px;
+}
+
+.testi .newBoxes .rightContent::after {
+  left: -170px !important;
+  right: unset;
+}
+
+.testi .bannerAbs {
+  left: -100px !important;
+  right: unset !important;
+  transform: translateX(-370px);
+}
+
+.ins {
+  margin-top: 50px;
+}
+
+.insBox {
+  margin-top: 40px;
+  display: flex;
+}
+
+.insBox img {
+  object-fit: cover;
+  flex-grow: 1;
+}
+
+.sponsor {
+  background-color: rgba(218, 94, 66, 1);
+  width: 100%;
+  padding: 20px 250px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sponsor img {
+  width: 18%;
+  max-width: 170px;
+  padding-right: 80px;
+}

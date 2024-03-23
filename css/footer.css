@@ -1,0 +1,17 @@
+.footer{
+    background: rgba(216, 71, 39, 1);
+    display: flex;
+    gap: 60px;
+    padding: 20px;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+}   
+
+
+.footer .divider{
+    background-color: aliceblue;
+}
+
+.footer p{
+    margin-block: 5px;
+}

@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.headerText {
+  color: rgba(51, 51, 51, 1);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.headerCart {
+  background: rgba(241, 221, 201, 1);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+a {
+  text-decoration: unset !important;
+  color: inherit !important;
+}
