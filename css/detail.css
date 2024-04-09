@@ -29,11 +29,17 @@
   gap: 20px;
 }
 
+
 .small img {
   width: 60px;
   height: 80px;
   object-fit: contain;
   cursor: pointer;
+  opacity: .5;
+}
+
+.small img:first-child{
+  opacity: 1;
 }
 
 .abs {
